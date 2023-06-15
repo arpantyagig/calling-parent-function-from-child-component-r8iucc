@@ -1,0 +1,31 @@
+.child-container {
+  width: 150px;
+  padding: 10px;
+  margin: 10px;
+  background-color: lightblue;
+  border-radius: 5px;
+  text-align: center;
+}
+
+button {
+  margin-top: 5px;
+}
+
+.child-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.child-card h3 {
+  margin: 0;
+}
+
+.child-card p {
+  margin: 0;
+}
+
+.child-card button {
+  margin-top: 10px;
+}

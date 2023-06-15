@@ -1,0 +1,48 @@
+.parent-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.child-container {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  background-color: lightgray;
+  border-radius: 5px;
+  text-align: center;
+}
+
+button {
+  margin-top: 5px;
+}
+
+.children-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.child-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.child-card h3 {
+  margin: 0;
+}
+
+.child-card p {
+  margin: 0;
+}
+
+.child-card button {
+  margin-top: 10px;
+}
+.input-text {
+  margin: 10px;
+}

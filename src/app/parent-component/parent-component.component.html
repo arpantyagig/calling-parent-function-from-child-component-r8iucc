@@ -1,0 +1,25 @@
+<div class="container-fuild">
+  <div class="row">
+
+    <div class="col-xxl-4">
+      <div class="input-text text-center"><hr>
+        <input class="form-control" type="text" [(ngModel)]="newChildName" placeholder="Enter name" />
+      <button class="btn btn-primary" (click)="createChild()">Create Child</button>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="children-container">
+      <div *ngFor="let child of childrenData" class="child-card">
+        <hr>
+        <h3>{{ child.name }}</h3>
+        <p>Money: ${{ child.money }}</p>
+        <br>
+        <button class="btn btn-success" (click)="sendMoney(child)">Send $10</button><hr>
+        <button class="btn btn-success" (click)="getMoneyFromChild(child)">Get $10</button> <hr>
+        <app-child [name]="child.name"></app-child>
+      </div>
+    </div>
+  </div>
+</div>
